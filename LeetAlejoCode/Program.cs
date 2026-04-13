@@ -7,6 +7,9 @@ Console.WriteLine("#### Easy Peasy Problems ####");
 // Console.WriteLine($"[{test[0]} {test[1]}]");
 
 
-bool test9 = PalindromeNumber.IsPalindrome(523);
+// bool test9 = PalindromeNumber.IsPalindrome(523);
+// Console.WriteLine($"is palindrome?: {test9}");
 
-Console.WriteLine($"is palindrome?: {test9}");
+
+int test = RomanToInteger.RomanToInt("MCMXCIV");
+Console.WriteLine($"{test}");
