@@ -11,5 +11,8 @@ Console.WriteLine("#### Easy Peasy Problems ####");
 // Console.WriteLine($"is palindrome?: {test9}");
 
 
-int test = RomanToInteger.RomanToInt("MCMXCIV");
-Console.WriteLine($"{test}");
+// int test = RomanToInteger.RomanToInt("MCMXCIV");
+// Console.WriteLine($"{test}");
+
+string common = LongestCommonPrefix.Solution(["dog","racecar","car"]);
+Console.WriteLine(common);
