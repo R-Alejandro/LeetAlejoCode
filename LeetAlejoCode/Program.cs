@@ -14,5 +14,8 @@ Console.WriteLine("#### Easy Peasy Problems ####");
 // int test = RomanToInteger.RomanToInt("MCMXCIV");
 // Console.WriteLine($"{test}");
 
-string common = LongestCommonPrefix.Solution(["dog","racecar","car"]);
-Console.WriteLine(common);
+// string common = LongestCommonPrefix.Solution(["dog","racecar","car"]);
+// Console.WriteLine(common);
+
+int result = AddDigits.Solution(4827);
+Console.WriteLine($"{result}");
